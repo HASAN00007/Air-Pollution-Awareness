@@ -1,0 +1,120 @@
+* {
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  header {
+    background: #009688;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  .responsive {
+    max-width: 700px;
+    height: 400px;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffd700;
+  }
+  
+  .hero {
+    background: url('air112.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #ffd700;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .hero .btn:hover {
+    background: #ff9900;
+  }
+  .section {
+    padding: 2rem 1rem;
+    background: #fff;
+  }
+  
+  .section:nth-child(odd) {
+    background: #e0f7fa;
+  }
+  
+  h2 {
+    color: #049e8c;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin: 1rem 0 0 2rem;
+  }
+  
+  p, ul {
+    font-size: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #00796b;
+    color: white;
+    margin-top: 2rem;
+  }
